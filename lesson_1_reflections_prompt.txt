@@ -1,10 +1,9 @@
 How did viewing a diff between two versions of a file help you see the bug that was introduced?
 Since the diff tool reduces the amount of data to only the changes that have been made, it is a much lighter load for my mind to process for bugs.
 
-How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
-1. Catching when and where a bug has occured.
-2. Enables experimentation without worry.
-3. Allows you to reference old code for current use.
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in git, vs having versions automatically saved, like google docs does?
+Pros: Separation by sentience.
+Cons: Crashes & Human error.
 
 How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
 1. Catching when and where a bug has occured.
