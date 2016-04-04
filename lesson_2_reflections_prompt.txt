@@ -15,3 +15,6 @@ Branches will allow you to do these things without affecting your main code.
 
 How do the diagrams help you visualize the branch structure?
 By representing conceptual connections with a simple, visual path-structure, the abstract is projected onto imagery, which is easier for our conscious brain to process and remember.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+It combines the changes into one repository. We represent it as we do because it's analogous to forking timelines and merging is collapsation. We're already conditioned to this visual, so it's easier for our minds to process and remember.
