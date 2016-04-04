@@ -3,3 +3,15 @@ It creates a .git folder with necessary information for the git version control 
 
 How is the staging area different from the working directory and the repository?
 It's an intermediate step between the two. This way, you can add files on the fly without much thought. Then, when you go to commit, you can double-check to ensure that it is only one logical change.
+
+How can you use the staging area to make sure you have one commit per logical change?
+Double-check with git diff. Remove appropriate files if over one logical change. Add and commit each remaining logical change separately.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+1. A Bug turns out to be interesting, and you want to explore it further.
+2. You want to try different approaches to the same problem.
+3. You discover an alternate usage for your program, and want to develop it in that direction more fully.
+Branches will allow you to do these things without affecting your main code.
+
+How do the diagrams help you visualize the branch structure?
+By representing conceptual connections with a simple, visual path-structure, the abstract is projected onto imagery, which is easier for our conscious brain to process and remember.
