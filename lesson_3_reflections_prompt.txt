@@ -14,3 +14,9 @@ You know from which commit and back, the repository will not diverge unknowingly
 
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder? 
 Using dropbox and cellphones might work. Saving would be slightly easier since you don't have to run some commands in terminal. But, literally everything else would be much harder. Oh, I get it. I get what you're doing now. Very clever Gogles. VERY CLEVER.
+
+When would you want to make changes in a separate branch rather than directly in a master? What benefits does each approach have?
+It's a matter of speed vs stability. Commiting directly to master being speed, and branches being stability. Using branches is good when:
+1. your master branch is a public production-ready branch
+2. you're collaborating
+3. you're making a significant change
