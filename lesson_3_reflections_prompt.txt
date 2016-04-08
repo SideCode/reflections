@@ -3,3 +3,11 @@ If you're collaborating, or working from more than one location, or you want a b
 
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 If someone you're collaborating with pushes into the remote, then you're goofed (And for push, you might be sharing confusing goof code if your code isn't ready).
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+1. Forks are GitHub-side clones, useful for exploring an alternation of an existing project that you do not have control over. The fork will point back to the original repository, providing stats and browsing/grouping convenience. You can push your fork to the original authors, and if they like it, they can choose to integrate it. Forking is mainly for these convenient community features.
+2. Clones are local copies of a project. You can use it to pull any repository off GitHub for your own modifications. Although you can clone someone else's project instead of forking, it's best to fork because of the aforementioned advantages. However, after forking, cloning is still necessary to grab the copy of the GitHub servers and onto your local machine.
+3. Branches are alternative commit paths for a single repository. You can use them to seperate/explore feature before they are production ready. They can only be used if you already have a clone copy of the repo.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+You know from which commit and back, the repository will not diverge unknowingly. This lets you have a confirmed reset point from which you can branch out confidently, and not have to worry about weird merging before the commit.
